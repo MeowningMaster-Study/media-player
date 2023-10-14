@@ -1,0 +1,64 @@
+# Ignore Visual Studio files and directories
+.vscode/
+.vs/
+obj/
+bin/
+*.user
+*.suo
+*.cache
+*.bak
+*.log
+*.vspscc
+
+# Ignore build output
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+nuget.exe
+nuget/
+wwwroot/
+
+# Ignore Resharper files
+_ReSharper*/
+*.ReSharper*
+
+# Ignore user-specific files
+[Tt]humbs.db
+[Dd]esktop.ini
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore logs and other temporary files
+*.log
+*.swp
+*.swo
+
+# Ignore Windows image file caches
+ehthumbs.db
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore deployment folders
+[Mm]igration/
+
+# Ignore localization files
+[Oo]bj[Ll]ocal/
+[Oo]bj[Ii]nter/[Dd]ebug/
+
+# Ignore user secrets
+secrets.json
